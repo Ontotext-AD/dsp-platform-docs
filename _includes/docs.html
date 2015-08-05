@@ -1,0 +1,35 @@
+<div class="logo animated bounceIn"><a class="logo_link hvr-grow-rotate" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a></div>
+{% for releases in site.data.releases.releases %}
+	{% assign version = releases[0] %}
+        	<a class="accordionTitle" href="javascript:void(0)">{{ releases[0] | replace: '_', '.' | capitalize }}</a>
+        	{% if releases[0] == "v1_2_0" %}
+        		<div class="accordionContent" id="{{ releases[0] }}" data-latest="true">
+        	{% else %}
+        		<div class="accordionContent accordionItemCollapsed" id="{{ releases[0] }}">
+        	{% endif %}
+				{% for item in releases[1] %}
+					<nav class="nav-global">
+						<ul>
+							<li style="color: #2980B9; font-size: 1.2em; font-family: 'Raleway'">{{ item[0] }}</li>
+							{% for docs in item[1] %}
+								{% assign docfolder = version | append: "-docs" %}
+								{% assign item_url = docs | prepend:"/" | prepend: docfolder | prepend: "/" | append:"/" %}
+
+								{% if item_url == page.url %}
+									{% assign c = "active" %}
+								{% else %}
+								    {% assign c = "" %}
+								{% endif %}
+
+								{% for p in site.[docfolder] %}
+								  	{% if p.url == item_url %}
+								      <li class="{{ c }}"><a class="menu_link" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+								      {% break %}
+								    {% endif %}
+								{% endfor %}
+							{% endfor %}
+						</ul>
+					</nav>
+				{% endfor %}
+			</div>
+{% endfor %}	

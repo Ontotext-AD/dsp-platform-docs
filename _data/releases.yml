@@ -1,0 +1,21 @@
+releases:
+  "v1_2_0":
+    "Getting Started":
+      - "quick-start"
+      - "installation"
+    "HowTo's":
+      - "content-based-recommendation"
+      - "get-behavioural-recommendations"
+      - "advanced-recommendation-parameters"
+      - "stop-recommending-content"
+      - "uploading-articles"
+      - "user-actions"
+      - "upgrade-to-a-newer-version"
+    "Miscellaneous":
+      - "troubleshooting"
+      - "faq"
+      - "known-issues"
+  "v1_1_1":
+    "Getting Started":
+      - "quick-start"
+      - "installation"
