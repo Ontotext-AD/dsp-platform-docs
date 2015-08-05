@@ -1,0 +1,12 @@
+[submodule "assets"]
+	path = assets
+	url = https://github.com/Ontotext-AD/doc-resources.git
+	branch = assets
+[submodule "release"]
+	path = release
+	url = https://github.com/Ontotext-AD/doc-resources.git
+	branch = release
+[submodule "layouts"]
+	path = _layouts
+	url = https://github.com/Ontotext-AD/doc-resources.git
+	branch = _layouts

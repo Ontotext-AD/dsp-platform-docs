@@ -1,0 +1,25 @@
+_site/*
+
+Thumbs.db
+.DS_Store
+.idea
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+
+# Ignore some text editors' backup files
+*~
+
+# Idea
+.idea
+*.iml
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings
+
+# Misc
+.svn
