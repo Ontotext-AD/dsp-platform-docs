@@ -4,7 +4,7 @@ layout: default
 prev_section: user-actions
 next_section: troubleshooting
 category: Miscellaneous
-permalink: v1_2_0-docs/faq/
+permalink: v1_0_0-docs/faq/
 ---
 
 ## Is there a max number of articles one can POST to `/content` at a time?

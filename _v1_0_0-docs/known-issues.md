@@ -1,10 +1,10 @@
 ---
 title: Known Issues
 layout: default
-prev_section: upgrade-to-a-newer-version
-next_section: troubleshooting
+prev_section: faq
+next_section:
 category: Miscellaneous
-permalink: v1_2_0-docs/known-issues/
+permalink: v1_0_0-docs/known-issues/
 ---
 
 ## `GET /content/{id}` - doesn't appear to work with the article ID as URI

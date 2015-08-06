@@ -2,13 +2,13 @@ markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
 title : DSP Platform
 
-baseurl: /dsp-platform-docs/
+baseurl: /dsp-platform-docs
 date: 2015
 author: Ontotext
 ASSET_PATH : assets/boddhi
 
 collections:
-  v1_2_0-docs:
+  v1_0_0-docs:
     output: true
   v1_1_1-docs:
     output: true
