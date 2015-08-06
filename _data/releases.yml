@@ -1,21 +1,24 @@
 releases:
-  "v1_2_0":
-    "Getting Started":
-      - "quick-start"
-      - "installation"
-    "HowTo's":
-      - "content-based-recommendation"
-      - "get-behavioural-recommendations"
-      - "advanced-recommendation-parameters"
-      - "stop-recommending-content"
-      - "uploading-articles"
-      - "user-actions"
-      - "upgrade-to-a-newer-version"
+  "v1_0_0":
+    "Basics":
+      - "overview"
+      - "high-level-diagram"
+      - "performance"
+      - "user-stories"
+      - "showcase"
+      - "clients"
+    "Technical Content":
+      - "technical-diagram"
+      - "components-overview"
+      - "concept-extraction-service"
+      - "recommender"
+      - "concept-api"
+    "Other Dev Guides":
+      - "graphdb"
+      - "cassandra"
+      - "apache-solr"
     "Miscellaneous":
+      - "configuration-setups"
       - "troubleshooting"
       - "faq"
       - "known-issues"
-  "v1_1_1":
-    "Getting Started":
-      - "quick-start"
-      - "installation"
