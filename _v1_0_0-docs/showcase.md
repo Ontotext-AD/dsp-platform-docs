@@ -5,4 +5,6 @@ prev_section: user-stories
 next_section: clients
 category: Basics
 permalink: v1_0_0-docs/showcase/
+redirect_to:
+  - http://news.ontotext.com/
 ---
