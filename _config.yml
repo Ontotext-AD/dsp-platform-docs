@@ -14,3 +14,6 @@ collections:
     output: true
   v1_1_0-docs:
     output: true
+
+gems:
+  - jekyll-redirect-from
