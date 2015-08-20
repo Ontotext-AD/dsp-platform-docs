@@ -10,6 +10,7 @@ releases:
     "Technical Content":
       - "technical-diagram"
       - "components-overview"
+      - "extraction-pipe"
       - "concept-extraction-service"
       - "recommender"
       - "concept-api"
