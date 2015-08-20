@@ -15,15 +15,15 @@ The Ontotext Concept Extraction Pipeline is a tool for automated analysis of lar
 
 - After the initial preprocessing phase (content cleanup, tokenization, sentence-splitting, morphological analysis), the pipeline performs annotation via lexicons and rules in order to extract some generic concepts like numbers, measures and metrics. 
  
-1. In a further step the **keyphrases**  are extracted. These are  noun phrases that are particularly relevant to the document and as such tend to describe its topic in a concise form. 
+- In a further step the **keyphrases**  are extracted. These are  noun phrases that are particularly relevant to the document and as such tend to describe its topic in a concise form. 
  
-1. Similarly as the keyphrases, the **named entities (NE)** mentioned in the document provide valuable information on the subject of the document.   They are extracted in the NE  discovery and linking phase of the pipeline matching the contents of the knowledge base  against the document content using semantic Gazetteers  and resolving any ambiguity that may occur by means of a machine learning word sense disambiguation algorithm.
+- Similarly as the keyphrases, the **named entities (NE)** mentioned in the document provide valuable information on the subject of the document.   They are extracted in the NE  discovery and linking phase of the pipeline matching the contents of the knowledge base  against the document content using semantic Gazetteers  and resolving any ambiguity that may occur by means of a machine learning word sense disambiguation algorithm.
  
-1. Since not all NE in the document are present in the knowledge base we also perform **novel named entity recognition** the discovery and handling of named entities previously unavailable in the knowledge base. 
+- Since not all NE in the document are present in the knowledge base we also perform **novel named entity recognition** the discovery and handling of named entities previously unavailable in the knowledge base. 
  
-1. In a final step the pipeline extracts **relationships** that may exist between the discovered named entities. 
+- In a final step the pipeline extracts **relationships** that may exist between the discovered named entities. 
  
-1. For all extracted keyphrases and NE, that may or may not be present in the knowledge base, the pipeline assesses the degree of importance (**relevance score**) of the concepts in the context of the article where they were discovered, as well as the sentiment of their immediate context.
+- For all extracted keyphrases and NE, that may or may not be present in the knowledge base, the pipeline assesses the degree of importance (**relevance score**) of the concepts in the context of the article where they were discovered, as well as the sentiment of their immediate context.
  
 
 
