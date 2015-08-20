@@ -36,9 +36,7 @@ Most of the processing resources used during this phase are part of the GATE dis
 
 ### Keyphrase extraction phase
 
-This phase contains logic that generates keyphrase candidates, assigns relevance scores to the candidates, and classifies them into positive or negative instances via a specialized processing resource for supervised classification.
-
-**[TODO: Replace "a specialized processing resource for supervised classification" with "a heuristic ranking scheme that uses ... " in case we decide to remove the classifier completely]**
+This phase contains logic that generates keyphrase candidates, assigns relevance scores to the candidates, and classifies them into positive or negative instances via a heuristic ranking scheme that uses the term frequency, inverse document frequency and the offset of a given mention from the beginning of the document.
 
 ### Gazetteer-based enrichment phase
 
