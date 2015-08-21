@@ -10,7 +10,23 @@ permalink: v1_0_0-docs/extraction-pipe/
 
 The Ontotext Concept Extraction Pipeline is a tool for automated analysis of large volumes of textual content, through which mentions of specific concepts and relationships between them can be discovered and represented in a machine-processable format. The pipeline utilizes a wide variety of linguistic and algorithmic resources such as semantic gazetteers, rules triggered by particular linguistic patterns, various statistical models for classification and sequence tagging trained against human-annotated corpora, etc. These resources are chained together in a sequence (a pipeline) that provides content enrichment of gradually increasing complexity, where each phase builds upon the results produced by the one that precedes it.
 
+The extraction pipeline recognizes mentions of Persons, Locations and Organizations using semantic Gazetteers and links them if possible to a particular knowledge base (Wikipadia, DBpedia, Umbel, GeoNames etc.). It also  tags the particularly relevant keyphrases thus allowing a fast grasp into the topic of the document.  Additionally, relationships between concepts and relevance scores are exposed.  
+
+*Short description of the extraction pipeline:*
+
 After the initial preprocessing phase (content cleanup, tokenization, sentence-splitting, morphological analysis), the pipeline performs annotation via lexicons and rules in order to extract generic concepts (numbers, measures and metrics), keyphrases (noun phrases relevant to the main topic of a document), named entity discovery and linking (matching the contents of the knowledge base against the document content and resolving any ambiguity that may occur), novel entity recognition (the discovery and handling of named entities previously unavailable in the knowledge base), and, finally, extracting relationships that may exist between the discovered named entities. Furthermore, the pipeline assesses the degree of importance of the concepts in the context of the article where they were discovered, as well as the sentiment of their immediate context.
+
+After the initial preprocessing phase (content cleanup, tokenization, sentence-splitting, morphological analysis), the pipeline performs annotation via lexicons and rules in order to extract some generic concepts like numbers, measures and metrics.
+
+In a further step the keyphrases  are extracted. These are  noun phrases that are particularly relevant to the document and as such tend to describe its topic in a concise form.
+
+Similarly as the keyphrases, the named entities (NE) mentioned in the document provide valuable information on the subject of the document.   They are extracted in the NE  discovery and linking phase of the pipeline - matching the contents of the knowledge base  against the document content using semantic Gazetteers  and resolving any ambiguity that may occur by means of a machine learning word sense disambiguation algorithm.
+
+Since not all NE in the document are present in the knowledge base we also perform novel named entity recognition - the discovery and handling of named entities previously unavailable in the knowledge base.
+
+In a final step the pipeline extracts relationships that may exist between the discovered named entities.
+For all extracted keyphrases and NE, that may or may not be present in the knowledge base, the pipeline assesses the degree of importance of the concepts in the context of the article where they were discovered, as well as the sentiment of their immediate context.
+
 
 ## Concept extraction pipeline phases
 
