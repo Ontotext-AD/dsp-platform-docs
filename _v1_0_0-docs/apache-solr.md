@@ -5,6 +5,6 @@ prev_section: cassandra
 next_section:
 category: Other Dev Guides
 permalink: v1_0_0-docs/apache-solr/
-redirect_to:
-  - http://lucene.apache.org/solr/resources.html
+
 ---
+http://lucene.apache.org/solr/resources.html

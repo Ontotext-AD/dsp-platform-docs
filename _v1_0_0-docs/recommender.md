@@ -5,6 +5,6 @@ prev_section: concept-extraction-service
 next_section: concept-api
 category: Technical Content
 permalink: v1_0_0-docs/recommender/
-redirect_to:
-  - http://ontotext-ad.github.io/recommend-pub-docs/
 ---
+
+http://ontotext-ad.github.io/recommend-pub-docs/
