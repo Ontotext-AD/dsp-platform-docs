@@ -7,4 +7,4 @@ category: Technical Content
 permalink: v1_0_0-docs/recommender/
 ---
 
-http://ontotext-ad.github.io/recommend-pub-docs/
+[Recommendation Engine Documentation] (http://ontotext-ad.github.io/recommend-pub-docs/)

@@ -7,4 +7,4 @@ category: Other Dev Guides
 permalink: v1_0_0-docs/cassandra/
 ---
 
-http://wiki.apache.org/cassandra/GettingStarted
+[Apache Cassandra Documentation](http://wiki.apache.org/cassandra/GettingStarted)

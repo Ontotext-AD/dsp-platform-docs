@@ -7,4 +7,4 @@ category: Technical Content
 permalink: v1_0_0-docs/concept-extraction-service/
 ---
 
-http://ontotext-ad.github.io/concept-extraction-docs/
+[Concept Extraction Services API Documentation] (http://ontotext-ad.github.io/concept-extraction-docs/)

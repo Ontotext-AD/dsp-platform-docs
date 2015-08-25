@@ -7,4 +7,4 @@ category: Technical Content
 permalink: v1_0_0-docs/concept-api/
 ---
 
-http://ontotext-ad.github.io/concept-pub-docs/
+[Concept API Documentation] (http://ontotext-ad.github.io/concept-pub-docs/)

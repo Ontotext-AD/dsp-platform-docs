@@ -7,4 +7,4 @@ category: Other Dev Guides
 permalink: v1_0_0-docs/apache-solr/
 
 ---
-http://lucene.apache.org/solr/resources.html
+[Apache Solr Documentation] (http://lucene.apache.org/solr/resources.html)

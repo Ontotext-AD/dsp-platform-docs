@@ -7,4 +7,4 @@ category: Other Dev Guides
 permalink: v1_0_0-docs/graphdb/
 ---
 
-http://graphdb.ontotext.com/
+[GraphDB™ Documentation] (http://graphdb.ontotext.com/)
