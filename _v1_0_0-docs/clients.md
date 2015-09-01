@@ -6,16 +6,20 @@ next_section:
 category: Basics
 permalink: v1_0_0-docs/clients/
 ---
-Ontotext customers unlock hidden meaning and relationships within their data making information accessible to customers, partners and employees. Our products and solutions enhance productivity by delivering knowledge based search results running in enterprise resilient environments. We have been working on the semantic annotation and indexing stack for 15 years, constantly refining and modernizing the algorithms and the platform itself, turning it into a mature and well-integrated semantic publishing stack.  Browse through our customer success stories to see how Ontotext solved knowledge management and discovery challenges other vendors simply could not.
+Ontotext customers unlock hidden meaning and relationships within their data, making information accessible to customers, partners and employees. Our products and solutions enhance productivity by delivering knowledge based search results running in enterprise resilient environments. We have been working on the semantic annotation and indexing stack for 15 years, constantly refining and modernizing the algorithms and the platform itself, turning it into a mature and well-integrated semantic publishing stack.  Browse through our customer success stories to see how Ontotext solved knowledge management and discovery challenges other vendors simply could not.
 
 <img src="{{ site.baseurl }}/img/bbc.png" alt="BBC" style="width:299px;height:87px; margin: 0 auto">
 
 Probably the highest profile application of semantic technology to date, BBC’s 2010 World Cup web site is delivered using the OWLIM Enterprise semantic repository. A famous "call to action" by John O'Donovan (Chief Technical Architect, BBC) has spurred a flurry of semantic technology activity in world-known media companies, particularly in the UK and US.
 See more details in the <a href="{{ site.baseurl }}/v1_0_0-docs/user-stories">BBC: Dynamic Semantic Publishing</a> success story.
 
+***
+
 <img src="{{ site.baseurl }}/img/euromoney.png" alt="Euromoney" style="width:299px;height:87px; margin: 0 auto">
 
 A leading international business-to-business publisher, focused primarily on international finance, Euromoney chose Ontotext to develop a unified semantic publishing platform to bridge the information gaps between over 100 business units.  As a result, the business units will not only be able to more quickly create content, but, having access to all historical content within all groups, will make for better, more enriched content. Read more about our work for <a href="{{ site.baseurl }}/v1_0_0-docs/user-stories">Euromoney and the Unified Semantic Publishing Platform</a>.
+
+***
 
 <img src="{{ site.baseurl }}/img/ft.jpg" alt="The Financial Times" style="width:435px;height:36px; margin: 0 auto">
 
