@@ -16,4 +16,4 @@ Find out what is possible with [News on the Web (NOW)](http://now.ontotext.com) 
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/e6SSgHMYzuk" frameborder="0" allowfullscreen></iframe>
 
-[Try it out now](http://now.ontotext.com)
+Try it out [NOW](http://now.ontotext.com) - a broad and in-depth perspective of the world today.
