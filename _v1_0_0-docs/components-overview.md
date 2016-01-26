@@ -12,15 +12,15 @@ The DSP platform architecture is oriented towards availability and consistency. 
 
 ## Feeder
 
-The RSS Feeder API is a crawling tool for managing feeds. (link to API docs)
+The RSS Feeder API is a service for continuous content feed to the system.
 
 ## Processor
 
-The Content Processing API manages and controls the processing and reprocessing of the documents. (link to API docs)
+The Content Processing API manages and controls the processing and reprocessing of the documents.
 
 ## Content API
 
-The Content API manages articles, documents and corpora. The operations include: add, store, update, retrieve and delete. (link to API docs)
+The Content API manages articles, documents and corpora. The operations include: add, store, update, retrieve and delete.
 
 ## Apache Cassandra
 
@@ -28,7 +28,7 @@ The Content API manages articles, documents and corpora. The operations include:
 
 ## Concept Extraction API
 
-<a href="{{ site.baseurl }}/v1_0_0-docs/concept-extraction-service">The Concept Extraction Service (CES)</a> is a stand-alone service, which allows handling large amounts of parallel semantic annotation requests while providing high availability. Using data loaded from the GraphDB database as its dictionary of concepts (knowledge base), it recognises mentions of entities, as well as their relevance and algorithm’s confidence, in the text. CES is integrated with GraphDB™, which provides a live stream of dictionary updates to the service as they enter the knowledge base.  (link to API docs)
+<a href="{{ site.baseurl }}/v1_0_0-docs/concept-extraction-service">The Concept Extraction Service (CES)</a> is a stand-alone service, which allows handling large amounts of parallel semantic annotation requests while providing high availability. Using data loaded from the GraphDB database as its dictionary of concepts (knowledge base), it recognises mentions of entities, as well as their relevance and algorithm’s confidence, in the text. CES is integrated with GraphDB™, which provides a live stream of dictionary updates to the service as they enter the knowledge base.
 
 ## CES Coordinator
 
@@ -36,7 +36,7 @@ The CES Coordinator distributes the annotation requests among the CES Workers an
 
 ## Concept API
 
-<a href="{{ site.baseurl }}/v1_0_0-docs/concept-api">The Concept API</a> is responsible for operations with RDF Objects such as Concepts (or named entities), Documents, Channels, Relations and Trends. (link to API docs)
+<a href="{{ site.baseurl }}/v1_0_0-docs/concept-api">The Concept API</a> is responsible for operations with RDF Objects such as Concepts (or named entities), Documents, Channels, Relations and Trends. ([API docs](http://concepts.ontotext.com/))
 
 ## GraphDB
 
@@ -48,13 +48,13 @@ The CES Coordinator distributes the annotation requests among the CES Workers an
 
 ## Search API
 
-The Search API provides suggestions, keyword search, concept search, hybrid search, facets and custom search endpoints. (link to API docs)
+The Search API provides suggestions, keyword search, concept search, hybrid search, facets and custom search endpoints. ([API docs](http://search.ontotext.com/))
 
 ## Recommender
 
 <a href="{{ site.baseurl }}/v1_0_0-docs/recommender">The Recommendation Engine</a> takes content and user actions as input and provides recommended content based on contextual similarity and user profiles in JSON format. It also has a RESTful interface which allows tuning the complex recommendation algorithm at runtime, by setting different weights for the user behaviour components, contextual boosts, and recency relevance decay.
 
-In a nutshell, the Recommendation Engine logs user activity, serves contextual recommendations, maintains user profiles, serves behaviour-driven recommendations, user activity insights and user clustering. (link to API docs)
+In a nutshell, the Recommendation Engine logs user activity, serves contextual recommendations, maintains user profiles, serves behaviour-driven recommendations, user activity insights and user clustering. ([API docs](http://recommendations.ontotext.com/))
 
 ## News on the Web UI
 

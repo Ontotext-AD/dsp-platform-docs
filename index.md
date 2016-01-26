@@ -7,25 +7,8 @@ This site aims to be a comprehensive guide to the Ontotext Dynamic Semantic Plat
 
 ## Who is this site for?
 
-This is a technical documentation, written to be used by technical people. Whether you are an architect, evaluating how the platform capabilities fit to your system, or you are a developer, who has already integrated it some of its components and actively employs its features - this is the complete reference. We also try to provide as much as possible insight into what we are currently working on and our future ideas via the roadmap page, and will keep you posted with news about releases and upgrade paths.
+This is a technical documentation, written to be used by technical people. Whether you are an architect, evaluating how the platform capabilities fit to your system, or you are a developer, who has already integrated some of its components and actively employs its features - this is the complete reference. We also try to provide as much as possible insight into what we are currently working on and our future ideas via the roadmap page, and will keep you posted with news about releases and upgrade paths.
 
-## What is the Ontotext Dynamic Semantic Platform?
-
-The Ontotext Dynamic Semantic Platform is a ...
-
-In other words, the recommendation is a combination of several components:
-
-1.
-2.
-3.
-
-
-
-### Advantages:
-
--
--
--  
 
 ## Helpful hints
 
