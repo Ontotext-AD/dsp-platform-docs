@@ -1,13 +1,13 @@
 ---
-title: Extraction Pipeline
+title: Concept Extraction Pipeline
 layout: default
 prev_section: data-behind
 next_section: brief-ux
 category: Getting Started
-permalink: v1_0_0-docs/extraction-pipe/
+permalink: v1_0_0-docs/concept-extraction-pipe/
 ---
 ## Overview
-The Ontotext Concept Extraction Pipeline is a tool for automated analysis of large volumes of textual content, through which mentions of specific concepts and relationships between them can be discovered and represented in a machine-processable format. It enriches the content aggregated from various news sources based on data from [DBpedia](wiki.dbpedia.org/), [WikiData](http://wikidata.org/), [GeoNames](http://www.geonames.org/) and others. The pipeline utilizes  a wide variety of linguistic and algorithmic resources -- such as semantic gazetteers, rules triggered by particular linguistic patterns, various statistical models for classification and sequence tagging trained against human-annotated corpora, etc.. These resources are chained together in a sequence (hence the name pipeline) that provides content enrichment of gradually increasing complexity, where each phase builds upon the results produced by the one that precedes it.The extraction pipe recognises mentions of entities such as Person,  Organisation, and Location, and links them if possible to a particular Knowledge Base ([DBpedia](wiki.dbpedia.org/), [WikiData](http://wikidata.org/), [GeoNames](http://www.geonames.org/) etc.) . it also tags the particularly relevant nounphrases, called keyphrases thus allowing a fast grasp into the topic of the document. Furthermore it detects  relationships between the extracted entities, as well as their relevance and confidence to the text.   
+The Ontotext Concept Extraction Pipeline is a tool for automated analysis of large volumes of textual content, through which mentions of specific concepts and relationships between them can be discovered and represented in a machine-processable format. It enriches the content aggregated from various news sources based on data from [DBpedia](wiki.dbpedia.org/), [WikiData](http://wikidata.org/), [GeoNames](http://www.geonames.org/) and others. The pipeline utilizes  a wide variety of linguistic and algorithmic resources -- such as semantic gazetteers, rules triggered by particular linguistic patterns, various statistical models for classification and sequence tagging trained against human-annotated corpora, etc.. These resources are chained together in a sequence (hence the name pipeline) that provides content enrichment of gradually increasing complexity, where each phase builds upon the results produced by the one that precedes it. The concept extraction pipeline recognises mentions of entities such as Person,  Organisation, and Location, and links them if possible to a particular Knowledge Base ([DBpedia](wiki.dbpedia.org/), [WikiData](http://wikidata.org/), [GeoNames](http://www.geonames.org/) etc.) . it also tags the particularly relevant nounphrases, called keyphrases thus allowing a fast grasp into the topic of the document. Furthermore it detects  relationships between the extracted entities, as well as their relevance and confidence to the text.   
 
 
 **Sketch of the pipeline:**
