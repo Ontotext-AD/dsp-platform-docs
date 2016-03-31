@@ -19,6 +19,7 @@ releases:
       - "cassandra"
       - "apache-solr"
     "Miscellaneous":
+      - "public-demo"
       - "configuration-setups"
       - "troubleshooting"
       - "faq"
