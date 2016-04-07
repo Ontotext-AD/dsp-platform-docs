@@ -1,10 +1,10 @@
 ---
-title: Public Demo
+title: Publishing Demo HowTo
 layout: default
-prev_section: apache-solr
+prev_section: virtualbox-demo
 next_section: configuration-setups
 category: Miscellaneous
-permalink: v1_0_0-docs/public-demo/
+permalink: v1_0_0-docs/publishing-demo-how-to/
 ---
 ## Service management
 * Service definitions:
