@@ -18,8 +18,11 @@ releases:
       - "graphdb"
       - "cassandra"
       - "apache-solr"
+    "Demo":
+        - "aws-demo"
+        - "virtualbox-demo"
+        - "publishing-demo-how-to"
     "Miscellaneous":
-      - "public-demo"
       - "configuration-setups"
       - "troubleshooting"
       - "faq"
