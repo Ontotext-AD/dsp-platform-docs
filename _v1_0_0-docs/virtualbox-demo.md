@@ -16,15 +16,15 @@ permalink: v1_0_0-docs/virtualbox-demo/
 Ontotext public FTP: `ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz`
 
 ## VirtualBox Import
-1. Import VM image in VirtualBox by clicking “File” menu and then “Import Appliance”
+1. Import VM image in VirtualBox by clicking *File* menu and then *Import Appliance*.
 <img src="{{ site.baseurl }}/img/virtualbox/import.png" alt="VirtualBox Import Appliance" style="float:none; margin:10px 0 10px 0" >
-2. Select the pub-demo.ova image and click Next
+2. Select the pub-demo.ova image and click *Next*.
 <img src="{{ site.baseurl }}/img/virtualbox/import-select-file.png" alt="VirtualBox Select File" style="float:none; margin:10px 0 10px 0" >
-3. On the next screen make sure you that “Reinitialize the MAC address of all network cards” is NOT selected
+3. On the next screen make sure you that *Reinitialize the MAC address of all network cards* is NOT selected
 <img src="{{ site.baseurl }}/img/virtualbox/import-overview.png" alt="VirtualBox Import Overview" style="float:none; margin:10px 0 10px 0" >
-4. When import process is done you should have new VM in the VMs list menu, right click on the newly created VM and select “Headless Start”.
+4. When import process is done you should have new VM in the VMs list menu, right click on the newly created VM and select *Headless Start*.
 <img src="{{ site.baseurl }}/img/virtualbox/start.png" alt="VirtualBox VM Start" style="float:none; margin:10px 0 10px 0" >
-5. Wait until the machine the state of the VM became “Running”, then you should be able to access the following services:
+5. Wait until the machine the state of the VM became *Running*, then you should be able to access the following services:
 * [GraphDB™ Workbench](http://localhost:18080/graphdb)
 * [Publishing TAG UI](http://localhost:19101/tag-ui)
 * [Publishing NOW UI](http://localhost:19102/now-ui)

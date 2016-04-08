@@ -7,7 +7,7 @@ category: Miscellaneous
 permalink: v1_0_0-docs/publishing-demo-how-to/
 ---
 ## Service management
-All services are executed using tomcat user.
+All services are executed using a Tomcat user.
 
 * Service definitions: `/etc/init/tomcat-<service-id>.conf`
 * Control service via: `service tomcat-<service-id> <stop/start/restart/status>`
@@ -28,7 +28,7 @@ All services are executed using tomcat user.
 ## Delete sample(all) documents
 
 #### Manual
-You can use GraphDB™ Workbench (`http://<ip_address>:<graphdb_port>/graphdb/sparql`) do to it manually by executing following SPARQL query:
+You can use GraphDB™ Workbench (`http://<ip_address>:<graphdb_port>/graphdb/sparql`) to do it manually by executing the following SPARQL query:
 
 ```
 PREFIX pub-old: <http://ontology.ontotext.com/publishing#>
