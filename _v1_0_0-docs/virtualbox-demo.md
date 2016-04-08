@@ -24,7 +24,7 @@ Ontotext public FTP: `ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz`
 <img src="{{ site.baseurl }}/img/virtualbox/import-overview.png" alt="VirtualBox Import Overview" style="float:none; margin:10px 0 10px 0" >
 4. When import process is done, right click on the newly created VM, in the VMs list menu, and select *Headless Start*.
 <img src="{{ site.baseurl }}/img/virtualbox/start.png" alt="VirtualBox VM Start" style="float:none; margin:10px 0 10px 0" >
-5. Wait until the machine the state of the VM became *Running*, now you have access to the following services:
+5. Wait until the machine the state of the VM becomes *Running*, now you have access to the following services:
 * [GraphDB™ Workbench](http://localhost:18080/graphdb)
 * [Publishing TAG UI](http://localhost:19101/tag-ui)
 * [Publishing NOW UI](http://localhost:19102/now-ui)
