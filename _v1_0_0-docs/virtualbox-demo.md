@@ -39,10 +39,10 @@ Ontotext public FTP: ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz
 
 ## Access
 + Port: 2222
-+ User#1:
++ **Service User**:
     + Username: `tomcat`
     + Password: `ontotext`
-+ User#2:
++ **Root User**:
     + Username: `root`
     + Password: `ontotext`
     + Note: `No root login`

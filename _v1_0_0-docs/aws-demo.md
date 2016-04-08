@@ -30,10 +30,10 @@ See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/User
 * **Apache Solr™**: `http://<ec_instance_ip_address>:9090/solr`
 
 ## Access
-+ User#1:
++ **Service User**:
     + Username: `tomcat`
     + Key: `ssh private key(selected on EC instance creation)`
-+ User#2:
++ **Root User**:
     + Username: `root`
     + Password: `ontotext`
 
