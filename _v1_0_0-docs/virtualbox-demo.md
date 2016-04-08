@@ -8,12 +8,12 @@ permalink: v1_0_0-docs/virtualbox-demo/
 ---
 ## Requirements
 * VirtualBox: version 4.3 and up
-* Cpu: faster CPU = faster concept extraction
+* CPU: faster CPU = faster concept extraction
 * Disk: at least 50g
-* Ram: at least 28g
+* RAM: at least 28g
 
 ## Download
-Ontotext public FTP: ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz
+Ontotext public FTP: `ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz`
 
 ## VirtualBox Import
 1. Import VM image in VirtualBox by clicking “File” menu and then “Import Appliance”

@@ -10,11 +10,8 @@ permalink: v1_0_0-docs/publishing-demo-how-to/
 All services are executed using tomcat user.
 
 * Service definitions: `/etc/init/tomcat-<service-id>.conf`
-
 * Control service via: `service tomcat-<service-id> <stop/start/restart/status>`
-
 * Tomcat installation: `/opt/tomcat`
-
 * Tomcat instances: `/opt/tomcat/instances`
 
 
