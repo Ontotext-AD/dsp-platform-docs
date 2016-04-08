@@ -49,7 +49,7 @@ where {
 ```
 
 #### REST client
-POST request to http://<ip_address>:<graphdb_port>/graphdb/repositories/pub/statements with the following SPARQL query:
+POST request to `http://<ip_address>:<graphdb_port>/graphdb/repositories/pub/statements` with the following SPARQL query:
 
 ```
 PREFIX pub-old: <http://ontology.ontotext.com/publishing#>
@@ -88,7 +88,7 @@ where {
     { ?s a pub-old:DocumentFeature }
 
     ?s ?p ?o .
-}'
+}
 ```
 
 ## Create channels
