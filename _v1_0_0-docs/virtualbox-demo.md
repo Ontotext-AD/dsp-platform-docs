@@ -39,4 +39,4 @@ Ontotext public FTP: ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz
 
 
 ## Usage
-[Publishing Demo HowTo]({{ site.baseurl }}/v1_0_0-docs/publishing-demo-how-to/)
+See the [Publishing Demo HowTo]({{ site.baseurl }}/v1_0_0-docs/publishing-demo-how-to/) section.
