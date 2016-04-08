@@ -12,6 +12,10 @@ permalink: v1_0_0-docs/aws-demo/
 
 ## AMI
 
+## Creating EC instance from AMI
+
+See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/LaunchingAndUsingInstances.html)
+
 ## Services
 * **GraphDB™ Workbench**: `http://<ec_instance_ip_address>:8080/graphdb`
 * **Publishing TAG UI**: `http://<ec_instance_ip_address>:9101/tag-ui`
