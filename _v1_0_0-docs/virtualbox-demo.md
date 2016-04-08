@@ -37,6 +37,22 @@ Ontotext public FTP: ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz
 * [Publishing Search API](http://localhost:19095/search-api)
 * [Apache Solr™](http://localhost:19090/solr)
 
+## Access
++ Port: 2222
++ User#1:
+    + Username: `tomcat`
+    + Password: `ontotext`
++ User#2:
+    + Username: `root`
+    + Password: `ontotext`
+    + Note: `No root login`
+
+
+#### SSH
+
+```
+ssh -p 2222 tomcat@localhost
+```
 
 ## Usage
 See the [Publishing Demo HowTo]({{ site.baseurl }}/v1_0_0-docs/publishing-demo-how-to/) section.

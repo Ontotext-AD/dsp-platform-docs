@@ -13,17 +13,32 @@ permalink: v1_0_0-docs/aws-demo/
 ## AMI
 
 ## Services
-* **GraphDB™ Workbench**: http://\<ip_address\>:8080/graphdb
-* **Publishing TAG UI**: http://\<ip_address\>:9101/tag-ui
-* **Publishing NOW UI**: http://\<ip_address\>:9102/now-ui
-* **Publishing Extractor API**: http://\<ip_address\>:9091/extractor
-* **Publishing Processor API**: http://\<ip_address\>:9098/processor
-* **Publishing Content API**: http://\<ip_address\>:9097/content-api
-* **Publishing Feeder API**: http://\<ip_address\>:9096/feeder
-* **Publishing Related Reads API**: http://\<ip_address\>:9099/api
-* **Publishing Concept API**: http://\<ip_address\>:9092/concept-api
-* **Publishing Search API**: http://\<ip_address\>:9095/search-api
-* **Apache Solr™**: http://\<ip_address\>:9090/solr
+* **GraphDB™ Workbench**: http://\<ec_instance_ip_address\>:8080/graphdb
+* **Publishing TAG UI**: http://\<ec_instance_ip_address\>:9101/tag-ui
+* **Publishing NOW UI**: http://\<ec_instance_ip_address\>:9102/now-ui
+* **Publishing Extractor API**: http://\<ec_instance_ip_address\>:9091/extractor
+* **Publishing Processor API**: http://\<ec_instance_ip_address\>:9098/processor
+* **Publishing Content API**: http://\<ec_instance_ip_address\>:9097/content-api
+* **Publishing Feeder API**: http://\<ec_instance_ip_address\>:9096/feeder
+* **Publishing Related Reads API**: http://\<ec_instance_ip_address\>:9099/api
+* **Publishing Concept API**: http://\<ec_instance_ip_address\>:9092/concept-api
+* **Publishing Search API**: http://\<ec_instance_ip_address\>:9095/search-api
+* **Apache Solr™**: http://\<ec_instance_ip_address\>:9090/solr
+
+## Access
++ User#1:
+    + Username: `tomcat`
+    + Key: `ssh private key(selected on EC instance creation)`
++ User#2:
+    + Username: `root`
+    + Password: `ontotext`
+
+
+#### SSH
+
+```
+ssh -i <path_to_private_key> tomcat@<ec_instance_public_ip_address>
+```
 
 ## Usage
 See the [Publishing Demo HowTo]({{ site.baseurl }}/v1_0_0-docs/publishing-demo-how-to/) section.

@@ -7,6 +7,7 @@ category: Miscellaneous
 permalink: v1_0_0-docs/publishing-demo-how-to/
 ---
 ## Service management
+All services are executed using tomcat user.
 * Service definitions:
 `/etc/init/tomcat-<service-id>.conf`
 * Control service via:
@@ -27,7 +28,7 @@ permalink: v1_0_0-docs/publishing-demo-how-to/
 ## Logs
 * Location: `/var/log/upstart/tomcat-<service-id>.log`
 
-## Delete sample documents
+## Delete sample(all) documents
 
 #### Manual
 You can use GraphDB™ Workbench (`http://<ip_address>:<graphdb_port>/graphdb/sparql`) do to it manually by executing following SPARQL query:
