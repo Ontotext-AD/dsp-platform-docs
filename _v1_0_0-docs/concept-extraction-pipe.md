@@ -13,18 +13,18 @@ The Ontotext Concept Extraction Pipeline is a tool for automated analysis of lar
 **Sketch of the pipeline:**
 
 
-- After the initial preprocessing phase (content cleanup, tokenization, sentence-splitting, morphological analysis), the pipeline performs annotation via lexicons and rules in order to extract some generic concepts like numbers, measures and metrics. 
- 
-- In a further step the **keyphrases**  are extracted. These are  noun phrases that are particularly relevant to the document and as such tend to describe its topic in a concise form. 
- 
+- After the initial preprocessing phase (content cleanup, tokenization, sentence-splitting, morphological analysis), the pipeline performs annotation via lexicons and rules in order to extract some generic concepts like numbers, measures and metrics.
+
+- In a further step the **keyphrases**  are extracted. These are  noun phrases that are particularly relevant to the document and as such tend to describe its topic in a concise form.
+
 - Similarly as the keyphrases, the **named entities (NE)** mentioned in the document provide valuable information on the subject of the document.   They are extracted in the NE  discovery and linking phase of the pipeline matching the contents of the knowledge base  against the document content using semantic Gazetteers  and resolving any ambiguity that may occur by means of a machine learning word sense disambiguation algorithm.
- 
-- Since not all NE in the document are present in the knowledge base we also perform **novel named entity recognition** the discovery and handling of named entities previously unavailable in the knowledge base. 
- 
-- In a final step the pipeline extracts **relationships** that may exist between the discovered named entities. 
- 
+
+- Since not all NE in the document are present in the knowledge base we also perform **novel named entity recognition** the discovery and handling of named entities previously unavailable in the knowledge base.
+
+- In a final step the pipeline extracts **relationships** that may exist between the discovered named entities.
+
 - For all extracted keyphrases and NE, that may or may not be present in the knowledge base, the pipeline assesses the degree of importance (**relevance score**) of the concepts in the context of the article where they were discovered, as well as the sentiment of their immediate context.
- 
+
 
 
 
@@ -73,7 +73,7 @@ Using the named entity candidates discovered by the LD Gazetteer, and given the 
 
 The disambiguation mechanism relies on some additional metadata derived from Wikipedia:
 
-- A short textual description of each candidate (based on DBPedia and Freebase abstracts);
+- A short textual description of each candidate (based on DBpedia and Freebase abstracts);
 - A set of URIs representing the entities that appear in the full DBpedia article for each candidate.
 
 Various similarity scores are computed by a specialized processing resource that accesses the metadata (stored in indices prepared especially for this task) and evaluates the correspondence between the candidate and the context (the article content and the content stored in the aforementioned indices). The final classification is conducted by a separate processing resource, based on these pre-computed scores and some additional features derived via rules from the local context.

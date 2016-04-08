@@ -23,7 +23,5 @@ releases:
         - "virtualbox-demo"
         - "publishing-demo-how-to"
     "Miscellaneous":
-      - "configuration-setups"
-      - "troubleshooting"
       - "faq"
       - "known-issues"
