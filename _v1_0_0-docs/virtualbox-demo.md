@@ -39,19 +39,14 @@ Ontotext public FTP: `ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz`
 
 ## Access
 + Port: 2222
-+ **Service User**:
-    + Username: `tomcat`
-    + Password: `ontotext`
 + **Root User**:
     + Username: `root`
-    + Password: `ontotext`
-    + Note: `No root login`
-
+    + Password: `vagrant`
 
 #### SSH
 
 ```
-ssh -p 2222 tomcat@localhost
+ssh -p 2222 root@localhost
 ```
 
 ## Usage
