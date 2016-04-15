@@ -35,7 +35,8 @@ See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/User
     + Key: `ssh private key(selected on EC instance creation)`
 + **Service User**:
     + Username: `tomcat`
-    + Note: no password, login via: `sudo su - tomcat -s /bin/bash`
+    + Note: no password, login command:
+     `tomcat` or `sudo su - tomcat -s /bin/bash`
 + **Root User**:
     + Username: `root`
     + Password: `ontotext`
