@@ -30,9 +30,12 @@ See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/User
 * **Apache Solr™**: `http://<ec_instance_ip_address>:9090/solr`
 
 ## Access
++ **Default user**: 
+    + Username: `ubuntu`
+    + Key: `ssh private key(selected on EC instance creation)`
 + **Service User**:
     + Username: `tomcat`
-    + Key: `ssh private key(selected on EC instance creation)`
+    + Note: no password, login via: `sudo su - tomcat -s /bin/bash`
 + **Root User**:
     + Username: `root`
     + Password: `ontotext`
@@ -41,7 +44,7 @@ See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/User
 #### SSH
 
 ```
-ssh -i <path_to_private_key> tomcat@<ec_instance_public_ip_address>
+ssh -i <path_to_private_key> ubuntu@<ec_instance_public_ip_address>
 ```
 
 ## Usage
