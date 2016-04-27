@@ -27,12 +27,10 @@ If your version of VirtualBox doesn't have *Headless Start* hold *Shift* button 
 <img src="{{ site.baseurl }}/img/virtualbox/start.png" alt="VirtualBox VM Start" style="float:none; margin:10px 0 10px 0" >
 5. Wait until the machine the state of the VM becomes *Running*, now you have access to the following services:
 * [GraphDB™ Workbench](http://localhost:18080/graphdb)
-* [Publishing TAG UI](http://localhost:19101/tag-ui)
-* [Publishing NOW UI](http://localhost:19102/now-ui)
+* [Publishing TAG UI](http://localhost:19101)
+* [Publishing NOW UI](http://localhost:19102)
 * [Publishing Extractor API](http://localhost:19091/extractor)
 * [Publishing Processor API](http://localhost:19098/processor)
-* [Publishing Content API](http://localhost:19097/content-api)
-* [Publishing Feeder API](http://localhost:19096/feeder)
 * [Publishing Related Reads API](http://localhost:19099/api)
 * [Publishing Concept API](http://localhost:19092/concept-api)
 * [Publishing Search API](http://localhost:19095/search-api)

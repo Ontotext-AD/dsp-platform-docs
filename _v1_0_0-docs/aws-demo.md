@@ -18,12 +18,10 @@ See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/User
 
 ## Services
 * **GraphDB™ Workbench**: `http://<ec_instance_ip_address>:8080/graphdb`
-* **Publishing TAG UI**: `http://<ec_instance_ip_address>:9101/tag-ui`
-* **Publishing NOW UI**: `http://<ec_instance_ip_address>:9102/now-ui`
+* **Publishing TAG UI**: `http://<ec_instance_ip_address>:9101`
+* **Publishing NOW UI**: `http://<ec_instance_ip_address>:9102`
 * **Publishing Extractor API**: `http://<ec_instance_ip_address>:9091/extractor`
 * **Publishing Processor API**: `http://<ec_instance_ip_address>:9098/processor`
-* **Publishing Content API**: `http://<ec_instance_ip_address>:9097/content-api`
-* **Publishing Feeder API**: `http://<ec_instance_ip_address>:9096/feeder`
 * **Publishing Related Reads API**: `http://<ec_instance_ip_address>:9099/api`
 * **Publishing Concept API**: `http://<ec_instance_ip_address>:9092/concept-api`
 * **Publishing Search API**: `http://<ec_instance_ip_address>:9095/search-api`
