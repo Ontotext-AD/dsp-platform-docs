@@ -25,7 +25,7 @@ permalink: v1_0_0-docs/virtualbox-demo/
 4. When import process is done, right click on the newly created VM, in the VMs list menu, and select *Headless Start*.
 If your version of VirtualBox doesn't have *Headless Start* hold *Shift* button while clicking *Start*, this will start the VM in headless mode.
 <img src="{{ site.baseurl }}/img/virtualbox/start.png" alt="VirtualBox VM Start" style="float:none; margin:10px 0 10px 0" >
-5. Wait until the machine the state of the VM becomes *Running*, now you have access to the following services:
+5. Wait until the machine the state of the VM becomes *Running* and it is accessible(this may take a while, as all services are starting on boot), now you have access to the following services:
 * [GraphDB™ Workbench](http://localhost:18080/graphdb)
 * [Publishing TAG UI](http://localhost:19101)
 * [Publishing NOW UI](http://localhost:19102)
