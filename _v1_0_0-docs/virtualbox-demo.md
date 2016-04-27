@@ -7,7 +7,7 @@ category: Miscellaneous
 permalink: v1_0_0-docs/virtualbox-demo/
 ---
 ## Requirements
-* VirtualBox: version 4.3 and up
+* VirtualBox: version 4.3 and up(version 5 and up recommended)
 * CPU: faster CPU = faster concept extraction
 * Disk: at least 50g
 * RAM: at least 28g
