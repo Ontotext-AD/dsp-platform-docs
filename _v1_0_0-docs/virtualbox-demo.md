@@ -13,7 +13,7 @@ permalink: v1_0_0-docs/virtualbox-demo/
 * RAM: at least 28g
 
 ## Download
-Ontotext public FTP: `ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz`
+[Ontotext public FTP](ftp://ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz)
 
 ## VirtualBox Import
 1. Import VM image in VirtualBox by clicking *File* -> *Import Appliance*.
@@ -23,6 +23,7 @@ Ontotext public FTP: `ftp.ontotext.com:/pub/dsp/pub-demo.tar.gz`
 3. Make sure that *Reinitialize the MAC address of all network cards* is NOT selected.
 <img src="{{ site.baseurl }}/img/virtualbox/import-overview.png" alt="VirtualBox Import Overview" style="float:none; margin:10px 0 10px 0" >
 4. When import process is done, right click on the newly created VM, in the VMs list menu, and select *Headless Start*.
+If your version of VirtualBox doesn't have *Headless Start* hold *Shift* button while clicking *Start*, this will start the VM in headless mode.
 <img src="{{ site.baseurl }}/img/virtualbox/start.png" alt="VirtualBox VM Start" style="float:none; margin:10px 0 10px 0" >
 5. Wait until the machine the state of the VM becomes *Running*, now you have access to the following services:
 * [GraphDB™ Workbench](http://localhost:18080/graphdb)
