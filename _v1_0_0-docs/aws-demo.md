@@ -12,6 +12,8 @@ permalink: v1_0_0-docs/aws-demo/
 
 ## AMI
 
+* Community AMI ID: ami-c8d25ebb
+
 ## Creating EC instance from AMI
 
 See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/LaunchingAndUsingInstances.html)
