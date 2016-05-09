@@ -16,6 +16,9 @@ All services are executed using a Tomcat user.
 
 
 ## GraphDB™
+* In order to change GraphDB™ license, replace current license file: `/opt/tomcat/instances/graphdb-workbench/GRAPHDB_ENTERPRISE.license` with your license.
+If you want to change the license name or location, please, set the `owlim-license` property to the appropriate license file in setenv file:
+`/opt/tomcat/instances/graphdb-workbench/bin/setenv.sh`
 * License location: `/opt/tomcat/instances/graphdb-workbench/GRAPHDB_ENTERPRISE.license`
 * Data dir location: `/var/lib/graphdb/graphdb-workbench`
 
@@ -51,7 +54,7 @@ where {
 #### REST client
 There are two ways to delete all documents using a REST client. 
 
-First one is to do a POST request to `http://<ip_address>:<graphdb_port>/graphdb/repositories/pub/statements` with the following SPARQL query:
+##### First one is to do a POST request to `http://<ip_address>:<graphdb_port>/graphdb/repositories/pub/statements` with the following SPARQL query:
 
 ```
 PREFIX pub-old: <http://ontology.ontotext.com/publishing#>
@@ -70,10 +73,8 @@ where {
     ?s ?p ?o .
 }
 ```
-Second method is to run a DELETE request against `http://<ip_address>:<concept_api_port>/concept-api/documents`
 
-#### CURL
-
+###### CURL
 ```
 curl -X POST http://<ip_address>:<graphdb_port>/graphdb/repositories/pub/statements --data-urlencode 'update=
 PREFIX pub-old: <http://ontology.ontotext.com/publishing#>
@@ -93,8 +94,9 @@ where {
 }'
 ```
 
-or
+##### Second method is to run a DELETE request against `http://<ip_address>:<concept_api_port>/concept-api/documents`
 
+###### CURL
 ```
 curl -X DELETE http://<ip_address>:<concept_api_port>/concept-api/documents
 ```
