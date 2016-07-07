@@ -8,11 +8,11 @@ permalink: v1_0_0-docs/aws-demo/
 ---
 ## Requirements
 * Instance type: m4.2xlarge, m3.2xlarge or similar
-* Disk: at least 50g
+* Disk: at least 50g(provisioned IOPS SSD recommended)
 
 ## AMI
 
-* Community AMI ID: ami-c8d25ebb
+* Community AMI ID: ami-23345350 (EU - Ireland)
 
 ## Creating EC instance from AMI
 
