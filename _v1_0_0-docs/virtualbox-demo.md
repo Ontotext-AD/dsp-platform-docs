@@ -34,7 +34,7 @@ If your version of VirtualBox doesn't have *Headless Start* hold *Shift* button 
 * [Publishing Related Reads API](http://localhost:19099/api)
 * [Publishing Concept API](http://localhost:19092/concept-api)
 * [Publishing Search API](http://localhost:19095/search-api)
-* [Apache Solr™](http://localhost:19090/solr)
+* [Elasticsearch™](http://localhost:19200)
 
 ## Access
 + Port: 2222
