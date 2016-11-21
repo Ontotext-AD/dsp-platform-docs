@@ -22,8 +22,16 @@ If you want to change the license name or location, please, set the `owlim-licen
 * License location: `/opt/tomcat/instances/graphdb-workbench/GRAPHDB_ENTERPRISE.license`
 * Data dir location: `/var/lib/graphdb/graphdb-workbench`
 
-## Apache Solr™
-* Solr home: `/opt/tomcat/instances/solr/solr-home`
+## Access authoring module
+* user: `pub-demo-editor`
+* password: `demo-password`
+
+
+## Elasticsearch™
+* Elasticsearch home: `/usr/share/elasticsearch/`
+* Elasticsearch config: `/etc/elasticsearch`
+* Elasticsearch data: `/usr/share/elasticsearch/data`
+* Elasticsearch logs: `/var/log/elasticsearch`
 
 ## Logs
 * Location: `/var/log/upstart/tomcat-<service-id>.log`
