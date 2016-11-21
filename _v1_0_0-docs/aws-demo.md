@@ -27,7 +27,7 @@ See the [Amazon EC2 Documentation](http://docs.aws.amazon.com/AWSEC2/latest/User
 * **Publishing Related Reads API**: `http://<ec_instance_ip_address>:9099/api`
 * **Publishing Concept API**: `http://<ec_instance_ip_address>:9092/concept-api`
 * **Publishing Search API**: `http://<ec_instance_ip_address>:9095/search-api`
-* **Apache Solr™**: `http://<ec_instance_ip_address>:9090/solr`
+* **Elasticsearch™**: `http://<ec_instance_ip_address>:9200`
 
 ## Access
 + **Default user**: 
