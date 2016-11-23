@@ -33,7 +33,7 @@ If your version of VirtualBox doesn't have *Headless Start* hold *Shift* button 
 * [Publishing Processor API](http://localhost:19098/processor)
 * [Publishing Related Reads API](http://localhost:19099/api)
 * [Publishing Concept API](http://localhost:19092/concept-api)
-* [Publishing Search](http://localhost:19095/search)
+* [Publishing Search API](http://localhost:19095/search)
 * [Elasticsearch™](http://localhost:19200)
 
 ## Access
